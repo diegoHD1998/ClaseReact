@@ -40,6 +40,7 @@ let mostrarLista = async() => {
         document.getElementById("listado").innerHTML = listaUsuario
         
     })
+    .catch( err => console.log(err))
     
     
     
