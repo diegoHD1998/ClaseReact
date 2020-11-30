@@ -1,0 +1,64 @@
+body,html{
+    height: 100vh;
+    width: 100vw;
+}
+
+.contenedor{
+    background: url('https://cdn.hipwallpaper.com/i/85/19/uGoQb4.png') no-repeat center center fixed; /* The full image url*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.login{
+    background-color: rgb(235, 235, 235);
+    height: 400px;
+    width: 330px;
+    border-radius: 10px;
+   
+}
+.superior{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(13, 35, 65); 
+    border-radius: 10px 10px 0px 0px;
+}
+
+img{
+    height: 200px;
+    width: 300px;
+
+    
+}
+.inferior{
+    padding: 30px;
+}
+
+
+@media(max-width: 500px){
+    
+    .login{
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .inferior{
+        padding-top: 50px;
+    }
+}
+
+@media(min-width:0px) and (max-width: 300px){
+    .login{
+        width: 300px;
+        height: 100vh;
+    }
+} 

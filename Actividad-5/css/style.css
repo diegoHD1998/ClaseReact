@@ -1,0 +1,50 @@
+h1,h3,h5{
+    color: #124265;
+}
+.tarjetas{
+    margin-top: 40px;
+}
+.card{
+    margin: 10px 10px;
+}
+.texto{
+    margin: 3%;
+}
+.AboutUs{
+    margin-bottom: 3%;
+}
+
+.texto1,.texto2{
+    text-align: justify;
+}
+
+
+li i{
+    color: #2487ce;
+}
+
+.numeros{
+    padding: 1% 20%;
+}
+.num1{
+    padding: 3% 5%;
+}
+
+.cajaVideo{
+    padding: 6% 2% ;
+}
+
+.textoVideo{
+    text-align: justify;
+}
+
+.team{
+    padding: 5% 4%;
+}
+.tituloFrecue{
+    padding-top: 30px;
+}
+
+.tituloContac{
+    padding-top: 40px;
+}

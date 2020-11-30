@@ -1,0 +1,50 @@
+body, html{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(235, 235, 235);
+}
+
+.contenedor{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+
+.imagen{
+    background-color: slateblue;
+    flex: 65;
+}
+
+.formulario{
+    background-color: rgb(235, 235, 235);
+    flex: 35;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+.alert{
+    /* visibility: hidden; */
+    visibility: visible;
+    margin-top: 10px;
+}
+
+label{
+    margin-bottom: 3px;
+}
+.boton{
+    width: 100%;
+}
+
+@media(max-width:600px){
+
+    .imagen{
+        display: none;
+    }
+
+    .formulario{
+        flex: 100;
+    }
+}
+

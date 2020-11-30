@@ -1,0 +1,60 @@
+.navbar{
+    background-color: mediumspringgreen;
+    margin: 0;
+    padding: 0;
+}
+.navbar ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li{
+    display: inline-block;
+    
+}
+
+.navbar a{
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    display: block;
+}
+
+.navbar a:hover{
+    background-color: purple;
+}
+
+img{
+    height: 300px;
+    width: 300px;
+    padding: 20px;
+}
+
+.cuerpo{
+    background-color: rgb(235, 235, 235);
+    padding: 5% 0%;
+}
+
+.info1 ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.info2 ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer{
+    background-color: mediumspringgreen;
+}
+
+.face, .twit, .insta, .google, .link{
+    font-size: 30px;
+    padding: 10px;
+    text-align: end;
+
+}

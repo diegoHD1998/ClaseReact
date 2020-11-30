@@ -1,0 +1,91 @@
+body{
+    background-color: rgb(235, 235, 235);
+}
+
+.boton{
+    margin-top: 20px;
+    text-align: center;
+
+}
+
+.boton a{
+    border: black solid 0.5px;
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+}
+
+.boton a:hover{
+    background-color:  mediumspringgreen ;
+}
+.descripcion{
+    text-align: justify;
+    padding: 0% 20%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+h2{
+    text-align: center;
+}
+
+.skill{
+    background-color: white;
+    display: flex;
+    margin: 0% 20% ;
+    padding: 40px 60px;
+    border: black 1px solid;
+}
+
+.n1, .n2{
+    flex-grow: 1;
+}
+span{
+    float: right;
+    position: relative;
+    top: -20px;
+}
+
+.a1{
+    height: 15px;
+    width: 90%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    background-color: #07cb7927;
+}
+
+.barra1{
+    background-color: #07cb79;
+    height: 15px;
+    width: 80%;
+}
+.barra2{
+    background-color: #07cb79;
+    height: 15px;
+    width: 40%;
+}
+
+.barra3{
+    background-color: #07cb79;
+    height: 15px;
+    width: 70%;
+}
+.barra4{
+    background-color: #07cb79;
+    height: 15px;
+    width: 90%;
+}
+.barra5{
+    background-color: #07cb79;
+    height: 15px;
+    width: 10%;
+}
+.barra6{
+    background-color: #07cb79;
+    height: 15px;
+    width: 40%;
+}
+.b2{
+    border-radius: 10px;
+}
+
+

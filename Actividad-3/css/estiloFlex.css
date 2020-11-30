@@ -1,0 +1,71 @@
+.contenedor{
+    background-color: cornflowerblue;
+    width: 60%;
+    margin: auto;
+    
+}
+/* Inicio navbar */
+.navbar{
+    background-color: mediumspringgreen;
+}
+.navbar ul{
+    list-style: none;
+}
+.navbar li{
+    display: inline-block;
+}
+.navbar a{
+    text-decoration: none;
+    padding: 10px 30px 10px 30px;
+    display: block;
+    color: white;
+}
+.navbar a:hover{
+    background-color: purple;
+}
+/* Fin Navbar */
+
+
+.contenedor2{
+    display: flex;
+}
+
+.cajaImagen{
+    height: 200px;
+    width: 200px;
+    padding: 40px;
+}
+
+img{
+    height: 200px;
+    width: 200px;
+}
+
+.informacion{
+    display: flex;
+}
+.informacion ul{
+    list-style: none;
+}
+
+/* Footer */
+.footer1{
+    background-color: mediumspringgreen;
+    width: 60%;
+    margin: auto;
+}
+
+.icon{
+    display: flex;
+    justify-content: center;
+}
+
+.face, .twit, .insta, .google, .link{
+    flex-basis: 120px;
+    padding: 10px;
+
+}
+
+.icon i{
+    font-size: 30px;
+}

@@ -1,0 +1,165 @@
+/* .navbar{
+    background-color:  rgb(13, 35, 65);
+    padding: 0;
+}
+
+.navbar ul{
+    list-style: none;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    
+}
+
+.navbar li{
+    display: inline-block;
+    color: white;
+}
+
+.navbar a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.cerrar{
+    float: right;
+}
+
+.navbar a:hover{
+    background-color:rgb(235, 235, 235) ;
+}
+*/
+
+
+.navbar1{
+    background-color:  rgb(13, 35, 65);
+    padding: 0;
+    margin: 0;
+    color: white;
+    display: flex;
+    align-items: center;
+    
+}
+.navbar2{
+    display: none;
+    
+}
+
+
+.texto{
+    flex-grow: 16;
+    text-align: center;
+}
+.boton{
+    flex-grow: 1;
+    text-align: center;
+    
+}
+.boton a{
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+}
+
+.boton a:hover{
+    background-color: rgb(235,235 ,235 );
+}
+
+
+.contenedor{
+    height: 92vh;
+    width: 100vw;
+    display: flex;
+    align-items: stretch;
+    
+}
+
+.menuLateral{
+    background-color:  rgb(13, 35, 65);
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    
+}
+
+.menuLateral a{
+    text-decoration: none;
+    display: block;
+    padding: 20px 0px 20px 10px;
+}
+
+.menuLateral a:hover{
+    background-color: rgb(235, 235, 235 );
+}
+
+.contenido{
+    width: 80%;
+    padding: 40px;
+    text-align: justify;
+}
+
+
+
+@media(max-width:660px){
+
+    .boton a{
+        padding: 20px;
+        
+    }
+
+    .menuLateral{
+        display: none;
+    }
+    .contenedor{
+        height: 100vh;
+        width: 100vw;
+    }
+    .contenido{
+        width: 100%;
+    }
+
+}
+
+
+@media(max-width:500px){
+    .navbar1{
+        display: none;
+    }
+    .navbar2{
+        display: flex;
+
+        background-color:  rgb(13, 35, 65);
+        padding: 0;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        color: white;
+        font-size: 30px;
+    }
+    .texto2{
+        padding-left: 20px;
+    }
+    .boton2 a{
+        padding: 10px;
+        text-decoration: none;
+        display: block;
+        
+    }
+
+    .texto2{
+        flex-grow: 1;
+        text-align: left;
+    }
+    .titulo{
+        flex-grow: 1;
+        text-align: center;
+    }
+    .boton2{
+        flex-grow: 1;
+        text-align: right;
+        
+    }
+   
+}

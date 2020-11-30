@@ -1,0 +1,102 @@
+body{
+    background-color: rgb(235, 235, 235);
+}
+.titulo{
+    
+    font-family: sans-serif;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.boton{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.boton a{
+    border: black 1px solid;
+    padding: 10px;
+    text-decoration: none;
+    color:black;
+    border-radius: 4px;
+}
+
+.descripcion{
+    width: 60%;
+    margin: auto;
+}
+
+.descripcion p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: justify;
+}
+
+
+.skill{
+    background-color: white;
+    margin: 10px 250px 50px 250px;
+    height: 200px;
+    width: 60%;
+    padding: 55px 0 0 60px;
+    border: gray 0.5px solid;
+}
+
+.a1{
+    
+    width: 80%;
+    margin-bottom: 20px;
+    background-color: #07cb7927;
+    border-radius: 5px;
+}
+.b2{
+    border-radius: 5px;
+}
+
+.barra1{
+    height: 15px;
+    width: 80%;
+    background-color:#07cb79;
+}
+
+
+.barra2{
+    height: 15px;
+    width: 40%;
+    background-color: #07cb79;
+}
+
+.barra3{
+    height: 15px;
+    width: 70%;
+    background-color: #07cb79;
+}
+
+.barra4{
+    height: 15px;
+    width: 90%;
+    background-color: #07cb79;
+}
+
+.barra5{
+    height: 15px;
+    width: 10%;
+    background-color: #07cb79;
+}
+
+.barra6{
+    height: 15px;
+    width: 40%;
+    background-color: #07cb79;
+}
+
+.n1, .n2{
+    float: left;
+    width: 50%;
+}
+
+span{
+    float: right;
+    position: relative;
+    top: -20px;
+}

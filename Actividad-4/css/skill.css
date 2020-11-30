@@ -1,0 +1,72 @@
+.container{
+    background-color: rgb(235, 235, 235);
+}
+
+.boton1{
+    padding: 15px;
+}
+
+.descripcion{
+    padding: 1% 5%;
+}
+
+
+.skill{
+    background-color: white;
+    padding: 50px;
+    margin: 0% 5%;
+}
+.a1{
+    background-color:  #07cb7927;
+    border-radius: 10px;
+    padding: 0;
+}
+
+span{
+    position: relative;
+    float: right;
+    top: -20px;
+}
+.b2{
+    border-radius: 10px;
+}
+
+.barra1{
+    background-color: #07cb79;
+    width: 80%;
+    height: 18px;
+}
+
+.barra2{
+    background-color: #07cb79;
+    width: 40%;
+    height: 18px;
+}
+
+.barra3{
+    background-color: #07cb79;
+    width: 70%;
+    height: 18px;
+}
+
+.barra4{
+    background-color: #07cb79;
+    width: 90%;
+    height: 18px;
+}
+
+.barra5{
+    background-color: #07cb79;
+    width: 10%;
+    height: 18px;
+}
+
+.barra6{
+    background-color: #07cb79;
+    width: 40%;
+    height: 18px;
+}
+
+.boton2{
+    padding: 20px;
+}
