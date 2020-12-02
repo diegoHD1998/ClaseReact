@@ -1,0 +1,155 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+ */
+
+.contenedor1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+  /* Componente 1 */
+
+ .Texto{
+   
+   padding: 50px 0px ;
+   width: 60%;
+   
+ }
+
+ h1,h2,h3{
+   margin: 0;
+ }
+
+ .Lista{
+   display: flex;
+   font-size: 20px;
+ }
+
+ .Lista ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.Parte1{
+  color: darkblue;
+}
+
+
+.Parte2{
+  margin-left: 2%;
+}
+
+
+/* Componente 2 */
+
+.Imagen{
+  display: flex;
+  
+  width: 40%;
+  justify-content: center;
+  align-items: center;
+}
+
+.Foto{
+  
+  height: 250px;
+  width: 250px;
+  
+}
+
+/* --------------------------- */
+.navbar{
+  background-color: royalblue;
+
+}
+
+.navbar ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  
+  
+}
+
+.navbar li{
+  display: inline-block;
+  
+}
+
+.navbar li a{
+  display: block;
+  padding: 10px 20px;
+  
+}
+
+.navbar li a:hover{
+  background-color: greenyellow;
+  
+}
+/* --------------------------- */
+.Origen{
+  width: 70%;
+  
+}
+/* --------------------------- */
+.Principal{
+  background-color: rgb(235, 235, 235);
+  display: flex;
+  
+}
+
+
+.barraBaja{
+  background-color: royalblue;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 30px;
+
+}
+
+
+.Iconos{
+  padding: 5px;
+}
+
+.Iconos:hover{
+  color: aqua;
+}
