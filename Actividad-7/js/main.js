@@ -62,7 +62,7 @@ let soloRut12 = (event) => {
     
 
     if (rut.length === 12) {
-        document.getElementById('rut').value = rut
+document.getElementById('rut').value = rut
         return;
         
         

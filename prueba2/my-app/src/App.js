@@ -95,7 +95,7 @@ class App extends React.Component{
   render() {
     return(
 
-        <div className="contenedor1">
+         <div className="contenedor1">
           <div className="Origen">
             <Barra/>
             <div className="Principal">
@@ -104,7 +104,8 @@ class App extends React.Component{
             </div>
             <BarraBaja/>
           </div>
-      </div>  
+      </div>   
+
 
     )
   }
